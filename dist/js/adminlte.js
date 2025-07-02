@@ -909,7 +909,7 @@
     var DATA_KEY = 'lte.directchat';
     var JQUERY_NO_CONFLICT = $.fn[NAME];
     var Event = {
-      TOGGLED: "toggled{EVENT_KEY}"
+      TOGGLED: "toggled".concat(EVENT_KEY)
     };
     var Selector = {
       DATA_TOGGLE: '[data-widget="chat-pane-toggle"]',

@@ -18,7 +18,7 @@ const DirectChat = (($) => {
   const DATA_API_KEY       = '.data-api'
 
   const Event = {
-    TOGGLED: `toggled{EVENT_KEY}`
+    TOGGLED: `toggled${EVENT_KEY}`
   }
 
   const Selector = {
